@@ -8,10 +8,10 @@ html {
 
 .container {
   width: 600px;
-  margin:auto;
+  margin: auto;
 }
 
-[class$=demo]{
+[class$=demo] {
   border: 1px solid silver;
   min-height: 200px;
   margin: 5px;
@@ -22,13 +22,14 @@ html {
 /****************************************
 * Transform
 ****************************************/
-.transform-demo > h3 {
+.transform-demo>h3 {
   vertical-align: top;
   width: 30%;
-  margin: 5px  auto;
+  margin: 5px auto;
   display: inline-block;
 
 }
+
 /****************************************
 * Transition
 ****************************************/
@@ -36,6 +37,7 @@ html {
 .transition-demo img {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
 }
 
 .cards {
